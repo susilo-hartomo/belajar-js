@@ -95,3 +95,61 @@ sabun.pembuat = {
 }
 
 console.log(sabun.pembuat.namaPt)
+
+// 5. boolean -> suatu nilai yang berisakan benar salah
+const benar = true
+const salah = false
+
+// kondisi dan bernilai Benar -> B & B => B selain salah
+// kondisi atau bernilai Salah -> S or S => S selain Benar
+
+// If conditional
+const kondisi = false
+
+if (kondisi) {
+	// melakukan aksi
+	console.log('kondisi bernilai benar')
+} else {
+	console.log('jalankan kondisi lainnya')
+}
+
+// a. pilihan
+// if (condition) {
+	
+// } else if (condition) {
+// } else if (condition) {
+// } else if (condition) {
+// } else if (condition) {
+// } else if (condition) {
+// } else {
+
+// }
+
+// b. menajalan semua kondisi
+// if (condition) {
+	
+// }
+
+// if (condition) {
+	
+// }
+
+// c. nested -> berkelanjutan
+// if (condition) {
+// 	if (condition) {
+		
+// 	}
+// }
+
+
+// 6 Koparation -> perbadingan
+// bentuk perbandingan seperti matematika
+// > , <, >=, <=, ==
+
+const nilai = 80
+
+if (nilai == 90) {
+	console.log('Nilai anda adalah:', nilai)
+} else {
+	console.log('Nilai anda adalah kurang dari kkm')
+}
